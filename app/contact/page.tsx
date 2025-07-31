@@ -27,7 +27,7 @@ export default function Contact() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     try {
       const response = await fetch('https://readdy.ai/api/form-submit', {
         method: 'POST',
@@ -101,7 +101,7 @@ export default function Contact() {
   return (
     <div className="min-h-screen">
       <Header />
-      
+
       {/* Hero Section */}
       <section className="py-24 bg-gradient-to-br from-black to-gray-900 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -154,7 +154,7 @@ export default function Contact() {
                     />
                   </div>
                 </div>
-                
+
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="animate-fade-in">
                     <label htmlFor="company" className="block text-sm font-medium text-black mb-2">
@@ -253,22 +253,20 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold mb-1 text-black">Email</h3>
-                      <p className="text-gray-600">support@1vans.com</p>
-                      <p className="text-gray-600">sales@1vans.com</p>
+                      <p className="text-gray-600">info@1vans.in</p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start animate-fade-in-delay">
                     <div className="w-12 h-12 bg-black/10 backdrop-blur-md rounded-lg flex items-center justify-center mr-4 hover:bg-black/20 transition-all duration-300">
                       <i className="ri-phone-line text-xl text-black"></i>
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold mb-1 text-black">Phone</h3>
-                      <p className="text-gray-600">+1 (555) 123-4567</p>
-                      <p className="text-gray-600">Mon-Fri 9AM-6PM EST</p>
+                      <p className="text-gray-600">+91 7778881307</p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start animate-fade-in">
                     <div className="w-12 h-12 bg-black/10 backdrop-blur-md rounded-lg flex items-center justify-center mr-4 hover:bg-black/20 transition-all duration-300">
                       <i className="ri-map-pin-line text-xl text-black"></i>
@@ -276,9 +274,10 @@ export default function Contact() {
                     <div>
                       <h3 className="text-lg font-semibold mb-1 text-black">Address</h3>
                       <p className="text-gray-600">
-                        123 Construction Ave<br/>
-                        Suite 456<br/>
-                        New York, NY 10001
+                        Broadway Signature, 434,<br />
+                        4th Floor,
+                        <br />
+                        Vadodara, Gujarat – 391101
                       </p>
                     </div>
                   </div>
@@ -294,14 +293,11 @@ export default function Contact() {
                 <div className="space-y-2 text-gray-600">
                   <div className="flex justify-between">
                     <span>Monday - Friday</span>
-                    <span>9:00 AM - 6:00 PM EST</span>
+                    <span>10:00 AM - 8:00 PM IST</span>
                   </div>
+            
                   <div className="flex justify-between">
-                    <span>Saturday</span>
-                    <span>10:00 AM - 4:00 PM EST</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Sunday</span>
+                    <span>Saturday - Sunday</span>
                     <span>Closed</span>
                   </div>
                 </div>
@@ -320,13 +316,13 @@ export default function Contact() {
               We're located in the heart of New York City and welcome visitors by appointment.
             </p>
           </div>
-          
+
           <div className="rounded-lg overflow-hidden shadow-lg backdrop-blur-md bg-white/80 border border-white/30 p-4 hover:bg-white/90 transition-all duration-500 transform hover:scale-105">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.682118994812!2d-73.99892602346928!3d40.74844097138641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1699564800000!5m2!1sen!2sus"
               width="100%"
               height="450"
-              style={{border: 0}}
+              style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
@@ -347,8 +343,8 @@ export default function Contact() {
 
           <div className="space-y-4">
             {faqs.map((faq, index) => (
-              <div 
-                key={index} 
+              <div
+                key={index}
                 className={`backdrop-blur-md bg-white/80 border border-white/30 rounded-lg shadow-md hover:bg-white/90 transition-all duration-500 transform hover:scale-105 animate-fade-in`}
                 style={{ animationDelay: `${index * 100}ms` }}
               >
@@ -381,16 +377,16 @@ export default function Contact() {
               Don't wait to transform your construction projects. Start your free trial today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button 
-                size="lg" 
+              <Button
+                size="lg"
                 className="bg-white text-black hover:bg-gray-100 group hover:scale-110 transition-all duration-300"
               >
                 Start Free Trial
                 <i className="ri-rocket-line ml-2 group-hover:rotate-12 transition-transform duration-300"></i>
               </Button>
-              <Button 
-                variant="outline" 
-                size="lg" 
+              <Button
+                variant="outline"
+                size="lg"
                 className="border-white text-white hover:bg-white hover:text-black group hover:scale-110 transition-all duration-300"
               >
                 Schedule Demo
