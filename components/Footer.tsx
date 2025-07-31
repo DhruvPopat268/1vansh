@@ -49,9 +49,12 @@ export default function Footer() {
             <div className="mb-6">
               <Link href="/" className="group">
                 <div className="text-3xl font-bold text-white transform transition-all duration-300 group-hover:scale-110">
-                  <span className="text-4xl group-hover:text-gray-700">
+                  <div className="text-4xl ">
                     1VANS
-                  </span>
+                  </div>
+                  <div className="text-xs text-white  ml-1">
+                    powered by om
+                  </div>
                 </div>
               </Link>
             </div>

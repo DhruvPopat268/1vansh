@@ -36,13 +36,14 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="group">
             <div className="text-2xl font-bold text-black transform transition-all duration-300 group-hover:scale-110">
-              <span className="text-4xl group-hover:text-gray-700">
+              <div className="text-4xl ">
                 1VANS
-              </span>
-              <span className="text-4xl group-hover:text-gray-700">
-                By Om
-              </span>
+              </div>
+              <div className="text-xs text-black  ml-1">
+                powered by om
+              </div>
             </div>
+
           </Link>
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">

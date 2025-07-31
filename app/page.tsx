@@ -103,13 +103,7 @@ export default function Home() {
                 Revolutionary construction project management platform that empowers engineers and administrators with cutting-edge mobile and web solutions.
               </p>
               <div className={`flex flex-col sm:flex-row gap-4 transform transition-all duration-1000 delay-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-                <Button
-                  size="lg"
-                  className="group hover:scale-105 transition-transform duration-300"
-                >
-                  Start Free Trial
-                  <i className="ri-arrow-right-line ml-2 group-hover:translate-x-1 transition-transform duration-300"></i>
-                </Button>
+                
                 <Link href="/features">
                   {/* <Button 
                     variant="outline" 
