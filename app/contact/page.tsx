@@ -295,7 +295,7 @@ export default function Contact() {
                     <span>Monday - Friday</span>
                     <span>10:00 AM - 8:00 PM IST</span>
                   </div>
-            
+
                   <div className="flex justify-between">
                     <span>Saturday - Sunday</span>
                     <span>Closed</span>
@@ -313,20 +313,18 @@ export default function Contact() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-black mb-4 animate-fade-in">Visit Our Office</h2>
             <p className="text-xl text-gray-600 animate-fade-in-delay">
-              We're located in the heart of New York City and welcome visitors by appointment.
+              We're located in the heart of Vadodara City and welcome visitors by appointment.
             </p>
           </div>
 
           <div className="rounded-lg overflow-hidden shadow-lg backdrop-blur-md bg-white/80 border border-white/30 p-4 hover:bg-white/90 transition-all duration-500 transform hover:scale-105">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.682118994812!2d-73.99892602346928!3d40.74844097138641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1699564800000!5m2!1sen!2sus"
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.0892099786656!2d73.1215904758974!3d22.31246564245324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc90067061917%3A0xd43f1feaf9d77ae!2sPrayosha%20Technology%20%26%20Solutions%20LLP!5e0!3m2!1sen!2sin!4v1754554134578!5m2!1sen!2sin"
               width="100%"
               height="450"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+              referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </section>
