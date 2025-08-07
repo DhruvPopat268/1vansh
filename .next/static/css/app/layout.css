@@ -781,6 +781,9 @@ video {
 .gap-8{
   gap: 2rem;
 }
+.gap-2{
+  gap: 0.5rem;
+}
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -1475,12 +1478,32 @@ video {
   color: rgb(55 65 81 / var(--tw-text-opacity, 1));
 }
 @media (min-width: 640px){
+  .sm\:mb-0{
+    margin-bottom: 0px;
+  }
+  .sm\:mr-2{
+    margin-right: 0.5rem;
+  }
+  .sm\:w-auto{
+    width: auto;
+  }
   .sm\:flex-row{
     flex-direction: row;
+  }
+  .sm\:gap-0{
+    gap: 0px;
   }
   .sm\:px-6{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+  .sm\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .sm\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 @media (min-width: 768px){
