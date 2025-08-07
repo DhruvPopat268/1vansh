@@ -246,13 +246,7 @@ export default function Home() {
               Join thousands of construction professionals who trust 1vans to deliver exceptional project outcomes.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button
-                size="lg"
-                className="group hover:scale-110 transition-all duration-300"
-              >
-                Start Free Trial
-                <i className="ri-rocket-line ml-2 group-hover:rotate-12 transition-transform duration-300"></i>
-              </Button>
+             
               <Link href="/contact">
                 <Button
                   variant="outline"
