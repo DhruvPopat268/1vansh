@@ -4,7 +4,7 @@ import React from 'react';
 
 const PPTPage = () => {
   const fileUrl = 'https://view.officeapps.live.com/op/embed.aspx?src=' +
-    encodeURIComponent('https://www.1vans.in/samplepptx.pptx');
+    encodeURIComponent('https://www.1vans.in/1_Vans.pptm');
     // ⚠️ Change "localhost:3000" to your real domain when deploying
 
   return (
