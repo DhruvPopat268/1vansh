@@ -93,7 +93,7 @@ export default function Features() {
       title: "Daily Work Reports",
       description: "Access detailed reports of workers, materials, equipment, and costs. Advanced filtering, printing, and media viewing capabilities.",
       icon: "ri-bar-chart-line",
-      image: "/Daily_Work_Reports.png"
+      image: "/Work_Reports.png"
     },
     {
       title: "Site Gallery Management",
