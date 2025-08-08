@@ -101,22 +101,7 @@ export default function Footer() {
           </div>
 
           {/* Resources Links */}
-          <div className="animate-fade-in">
-            <h3 className="text-lg font-semibold mb-4 text-white">Resources</h3>
-            <ul className="space-y-3">
-              {footerLinks.resources.map((link, index) => (
-                <li key={link.name}>
-                  <Link
-                    href={link.href}
-                    className={`text-gray-400 hover:text-white transition-all duration-300 transform hover:translate-x-2 hover:scale-105 animate-fade-in`}
-                    style={{ animationDelay: `${index * 100}ms` }}
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+          
 
           {/* Legal Links */}
           <div className="animate-fade-in">
