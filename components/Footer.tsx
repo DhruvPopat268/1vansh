@@ -152,7 +152,7 @@ export default function Footer() {
         <div className="mt-16 pt-8 border-t border-white/20">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm animate-fade-in">
-              © {currentYear} 1vans. All rights reserved.
+              © {currentYear} 1vans.in All rights reserved.
             </p>
             <div className="flex items-center space-x-6 mt-4 md:mt-0">
               <div className="flex items-center space-x-2 text-gray-400 text-sm animate-fade-in">
