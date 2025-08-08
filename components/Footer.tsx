@@ -9,7 +9,6 @@ export default function Footer() {
   const footerLinks = {
     product: [
       { name: 'Features', href: '/features' },
-      { name: 'Pricing', href: '/pricing' },
       { name: 'Industries', href: '/industries' },
       { name: 'Mobile App', href: '/features' },
     ],
