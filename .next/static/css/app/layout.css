@@ -772,6 +772,9 @@ video {
 .gap-16{
   gap: 4rem;
 }
+.gap-2{
+  gap: 0.5rem;
+}
 .gap-4{
   gap: 1rem;
 }
@@ -780,9 +783,6 @@ video {
 }
 .gap-8{
   gap: 2rem;
-}
-.gap-2{
-  gap: 0.5rem;
 }
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
