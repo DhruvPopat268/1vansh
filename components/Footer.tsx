@@ -9,27 +9,15 @@ export default function Footer() {
   const footerLinks = {
     product: [
       { name: 'Features', href: '/features' },
-      { name: 'Pricing', href: '/pricing' },
       { name: 'Industries', href: '/industries' },
       { name: 'Mobile App', href: '/features' },
     ],
     company: [
       { name: 'About Us', href: '/about' },
       { name: 'Contact', href: '/contact' },
-      { name: 'Careers', href: '#' },
-      { name: 'Press', href: '#' },
-    ],
-    resources: [
-      { name: 'Documentation', href: '#' },
-      { name: 'Help Center', href: '#' },
-      { name: 'API Reference', href: '#' },
-      { name: 'Blog', href: '#' },
     ],
     legal: [
-      { name: 'Privacy Policy', href: '#' },
-      { name: 'Terms of Service', href: '#' },
-      { name: 'Cookie Policy', href: '#' },
-      { name: 'GDPR', href: '#' },
+      { name: 'Privacy Policy', href: '/privacy' },
     ],
   };
 
@@ -113,22 +101,7 @@ export default function Footer() {
           </div>
 
           {/* Resources Links */}
-          <div className="animate-fade-in">
-            <h3 className="text-lg font-semibold mb-4 text-white">Resources</h3>
-            <ul className="space-y-3">
-              {footerLinks.resources.map((link, index) => (
-                <li key={link.name}>
-                  <Link
-                    href={link.href}
-                    className={`text-gray-400 hover:text-white transition-all duration-300 transform hover:translate-x-2 hover:scale-105 animate-fade-in`}
-                    style={{ animationDelay: `${index * 100}ms` }}
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+          
 
           {/* Legal Links */}
           <div className="animate-fade-in">
@@ -153,7 +126,7 @@ export default function Footer() {
         <div className="mt-16 pt-8 border-t border-white/20">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm animate-fade-in">
-              © {currentYear} 1vans. All rights reserved.
+              © {currentYear} 1vans.in All rights reserved.
             </p>
             <div className="flex items-center space-x-6 mt-4 md:mt-0">
               <div className="flex items-center space-x-2 text-gray-400 text-sm animate-fade-in">
