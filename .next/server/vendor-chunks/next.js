@@ -51,7 +51,7 @@ eval("\nObject.defineProperty(exports, \"__esModule\", ({\n    value: true\n}));
 
 const { createProxy } = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js")
 
-module.exports = createProxy("D:\\projects\\1vansh\\node_modules\\next\\dist\\client\\components\\client-page.js")
+module.exports = createProxy("D:\\projects\\1Vans\\node_modules\\next\\dist\\client\\components\\client-page.js")
 
 
 /***/ }),
@@ -64,7 +64,7 @@ module.exports = createProxy("D:\\projects\\1vansh\\node_modules\\next\\dist\\cl
 
 const { createProxy } = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js")
 
-module.exports = createProxy("D:\\projects\\1vansh\\node_modules\\next\\dist\\client\\components\\client-segment.js")
+module.exports = createProxy("D:\\projects\\1Vans\\node_modules\\next\\dist\\client\\components\\client-segment.js")
 
 
 /***/ }),
@@ -77,7 +77,7 @@ module.exports = createProxy("D:\\projects\\1vansh\\node_modules\\next\\dist\\cl
 
 const { createProxy } = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js")
 
-module.exports = createProxy("D:\\projects\\1vansh\\node_modules\\next\\dist\\client\\components\\error-boundary.js")
+module.exports = createProxy("D:\\projects\\1Vans\\node_modules\\next\\dist\\client\\components\\error-boundary.js")
 
 
 /***/ }),
@@ -112,7 +112,7 @@ eval("\nObject.defineProperty(exports, \"__esModule\", ({\n    value: true\n}));
 
 const { createProxy } = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js")
 
-module.exports = createProxy("D:\\projects\\1vansh\\node_modules\\next\\dist\\client\\components\\http-access-fallback\\error-boundary.js")
+module.exports = createProxy("D:\\projects\\1Vans\\node_modules\\next\\dist\\client\\components\\http-access-fallback\\error-boundary.js")
 
 
 /***/ }),
@@ -158,7 +158,7 @@ eval("\nObject.defineProperty(exports, \"__esModule\", ({\n    value: true\n}));
 
 const { createProxy } = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js")
 
-module.exports = createProxy("D:\\projects\\1vansh\\node_modules\\next\\dist\\client\\components\\layout-router.js")
+module.exports = createProxy("D:\\projects\\1Vans\\node_modules\\next\\dist\\client\\components\\layout-router.js")
 
 
 /***/ }),
@@ -171,7 +171,7 @@ module.exports = createProxy("D:\\projects\\1vansh\\node_modules\\next\\dist\\cl
 
 const { createProxy } = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js")
 
-module.exports = createProxy("D:\\projects\\1vansh\\node_modules\\next\\dist\\client\\components\\metadata\\async-metadata.js")
+module.exports = createProxy("D:\\projects\\1Vans\\node_modules\\next\\dist\\client\\components\\metadata\\async-metadata.js")
 
 
 /***/ }),
@@ -184,7 +184,7 @@ module.exports = createProxy("D:\\projects\\1vansh\\node_modules\\next\\dist\\cl
 
 const { createProxy } = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js")
 
-module.exports = createProxy("D:\\projects\\1vansh\\node_modules\\next\\dist\\client\\components\\metadata\\metadata-boundary.js")
+module.exports = createProxy("D:\\projects\\1Vans\\node_modules\\next\\dist\\client\\components\\metadata\\metadata-boundary.js")
 
 
 /***/ }),
@@ -219,7 +219,7 @@ eval("\nObject.defineProperty(exports, \"__esModule\", ({\n    value: true\n}));
 
 const { createProxy } = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js")
 
-module.exports = createProxy("D:\\projects\\1vansh\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js")
+module.exports = createProxy("D:\\projects\\1Vans\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js")
 
 
 /***/ }),
