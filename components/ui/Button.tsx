@@ -3,7 +3,7 @@
 
 import { ButtonHTMLAttributes, ReactNode } from 'react';
 
-interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonelement> {
+interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'primary' | 'secondary' | 'outline' | 'ghost';
   size?: 'sm' | 'md' | 'lg';
   children: ReactNode;
