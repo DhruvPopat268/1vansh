@@ -263,7 +263,7 @@ export default function Features() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-black mb-4 animate-fade-in">
-              Why Choose 1vans Features?
+              Why Choose OneVans Features?
             </h2>
             <p className="text-xl text-gray-600 animate-fade-in-delay">
               Designed specifically for construction professionals with real-world needs in mind
@@ -367,7 +367,7 @@ export default function Features() {
               Ready to Experience These Features?
             </h2>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              Start your free trial today and see how 1vans' comprehensive features can transform your construction project management.
+              Start your free trial today and see how OneVans' comprehensive features can transform your construction project management.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 

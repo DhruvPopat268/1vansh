@@ -75,7 +75,7 @@ export default function Contact() {
 
   const faqs = [
     {
-      question: "How quickly can we get started with 1vans?",
+      question: "How quickly can we get started with OneVans?",
       answer: "Most teams can be up and running within 24 hours. We provide onboarding support and training to ensure a smooth transition."
     },
     {
@@ -110,7 +110,7 @@ export default function Contact() {
               Get in Touch
             </h1>
             <p className={`text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto transform transition-all duration-1000 delay-500 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-              Ready to transform your construction projects? Our team is here to help you get started with 1vans.
+              Ready to transform your construction projects? Our team is here to help you get started with OneVans.
             </p>
           </div>
         </div>
@@ -253,7 +253,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold mb-1 text-black">Email</h3>
-                      <p className="text-gray-600">info@1vans.in</p>
+                      <p className="text-gray-600">info@OneVans.in</p>
                     </div>
                   </div>
 
@@ -335,7 +335,7 @@ export default function Contact() {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-black mb-4 animate-fade-in">Frequently Asked Questions</h2>
             <p className="text-xl text-gray-600 animate-fade-in-delay">
-              Quick answers to common questions about 1vans
+              Quick answers to common questions about OneVans
             </p>
           </div>
 

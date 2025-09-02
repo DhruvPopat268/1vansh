@@ -270,7 +270,7 @@ export default function Pricing() {
               Frequently Asked Questions
             </h2>
             <p className="text-xl text-gray-600 animate-fade-in-delay">
-              Everything you need to know about 1vans pricing
+              Everything you need to know about OneVans pricing
             </p>
           </div>
 
@@ -310,7 +310,7 @@ export default function Pricing() {
               30-Day Money Back Guarantee
             </h2>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              Try 1vans risk-free for 30 days. If you're not completely satisfied, we'll refund your money, no questions asked.
+              Try OneVans risk-free for 30 days. If you're not completely satisfied, we'll refund your money, no questions asked.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
@@ -341,7 +341,7 @@ export default function Pricing() {
               Ready to Transform Your Construction Projects?
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Join thousands of construction professionals who have streamlined their workflows with 1vans.
+              Join thousands of construction professionals who have streamlined their workflows with OneVans.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 

@@ -91,7 +91,7 @@ export default function Industries() {
               Industries We Serve
             </h1>
             <p className={`text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto transform transition-all duration-1000 delay-500 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-              1VANS adapts to your industry's unique needs with specialized workflows, compliance tools, and industry-specific features.
+              OneVans adapts to your industry's unique needs with specialized workflows, compliance tools, and industry-specific features.
             </p>
           </div>
         </div>
@@ -161,7 +161,7 @@ export default function Industries() {
               Industry Impact
             </h2>
             <p className="text-xl text-gray-300 animate-fade-in-delay">
-              See how 1vans transforms construction projects across industries
+              See how OneVans transforms construction projects across industries
             </p>
           </div>
 
@@ -192,7 +192,7 @@ export default function Industries() {
               Ready to Transform Your Industry Projects?
             </h2>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              Discover how 1vans can be customized for your specific industry needs and requirements.
+              Discover how OneVans can be customized for your specific industry needs and requirements.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
              
