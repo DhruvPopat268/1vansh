@@ -49,7 +49,7 @@ export default function Home() {
 
   const testimonials = [
     {
-      quote: "OneVans has completely transformed how we manage our construction projects. The mobile app is incredibly intuitive and the real-time reporting saves us hours every day.",
+      quote: "One Vans has completely transformed how we manage our construction projects. The mobile app is incredibly intuitive and the real-time reporting saves us hours every day.",
       author: "Sarah Johnson",
       role: "Project Manager",
       company: "BuildCorp Solutions"
@@ -61,7 +61,7 @@ export default function Home() {
       company: "Urban Development Ltd"
     },
     {
-      quote: "Implementation was seamless and the support team was fantastic. Our productivity has increased by 40% since switching to OneVans.",
+      quote: "Implementation was seamless and the support team was fantastic. Our productivity has increased by 40% since switching to One Vans.",
       author: "Emma Rodriguez",
       role: "Operations Manager",
       company: "Metro Construction"
@@ -93,7 +93,7 @@ export default function Home() {
               <h1 className={`text-3xl md:text-7xl font-bold text-white mb-6 transform transition-all duration-1000 delay-300 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'}`}>
                 Build Smarter with{' '}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-300 animate-pulse">
-                  OneVans
+                  One Vans
                 </span>
                 {/* <span className="text-white">
                   By Om
@@ -124,7 +124,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="text-4xl font-bold text-black mb-4 animate-fade-in">
-              Why Choose OneVans?
+              Why Choose One Vans?
             </span>
             <p className="text-xl text-gray-600 animate-fade-in-delay">
               Comprehensive construction management solutions designed for modern teams
@@ -164,7 +164,7 @@ export default function Home() {
               Trusted by Industry Leaders
             </h2>
             <p className="text-xl text-gray-300">
-              See how OneVans is transforming construction worldwide
+              See how One Vans is transforming construction worldwide
             </p>
           </div>
 
@@ -190,7 +190,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-black mb-4">What Our Clients Say</h2>
             <p className="text-xl text-gray-600">
-              Real experiences from construction professionals using OneVans
+              Real experiences from construction professionals using One Vans
             </p>
           </div>
 
@@ -243,7 +243,7 @@ export default function Home() {
               Ready to Transform Your Construction Projects?
             </h2>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              Join thousands of construction professionals who trust OneVans to deliver exceptional project outcomes.
+              Join thousands of construction professionals who trust One Vans to deliver exceptional project outcomes.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
              

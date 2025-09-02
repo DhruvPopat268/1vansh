@@ -75,7 +75,7 @@ export default function Contact() {
 
   const faqs = [
     {
-      question: "How quickly can we get started with OneVans?",
+      question: "How quickly can we get started with One Vans?",
       answer: "Most teams can be up and running within 24 hours. We provide onboarding support and training to ensure a smooth transition."
     },
     {
@@ -110,7 +110,7 @@ export default function Contact() {
               Get in Touch
             </h1>
             <p className={`text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto transform transition-all duration-1000 delay-500 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-              Ready to transform your construction projects? Our team is here to help you get started with OneVans.
+              Ready to transform your construction projects? Our team is here to help you get started with One Vans.
             </p>
           </div>
         </div>
@@ -253,7 +253,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold mb-1 text-black">Email</h3>
-                      <p className="text-gray-600">info@OneVans.in</p>
+                      <p className="text-gray-600">info@1Vans.in</p>
                     </div>
                   </div>
 
@@ -308,26 +308,7 @@ export default function Contact() {
       </section>
 
       {/* Map Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-black mb-4 animate-fade-in">Visit Our Office</h2>
-            <p className="text-xl text-gray-600 animate-fade-in-delay">
-              We're located in the heart of Vadodara City and welcome visitors by appointment.
-            </p>
-          </div>
 
-          <div className="rounded-lg overflow-hidden shadow-lg backdrop-blur-md bg-white/80 border border-white/30 p-4 hover:bg-white/90 transition-all duration-500 transform hover:scale-105">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.0892099786656!2d73.1215904758974!3d22.31246564245324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc90067061917%3A0xd43f1feaf9d77ae!2sPrayosha%20Technology%20%26%20Solutions%20LLP!5e0!3m2!1sen!2sin!4v1754554134578!5m2!1sen!2sin"
-              width="100%"
-              height="450"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-        </div>
-      </section>
 
       {/* FAQ Section */}
       <section className="py-20 bg-gray-50">
@@ -335,7 +316,7 @@ export default function Contact() {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-black mb-4 animate-fade-in">Frequently Asked Questions</h2>
             <p className="text-xl text-gray-600 animate-fade-in-delay">
-              Quick answers to common questions about OneVans
+              Quick answers to common questions about One Vans
             </p>
           </div>
 

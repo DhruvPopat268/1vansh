@@ -38,10 +38,10 @@ export default function Footer() {
               <Link href="/" className="group">
                 <div className="text-3xl font-bold text-white transform transition-all duration-300 group-hover:scale-110">
                   <div className="text-4xl ">
-                    OneVans
+                    One Vans
                   </div>
                   <div className="text-xs text-white  ml-1">
-                    powered by Aumaem
+                    
                   </div>
                 </div>
               </Link>
@@ -126,7 +126,7 @@ export default function Footer() {
         <div className="mt-16 pt-8 border-t border-white/20">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm animate-fade-in">
-              © {currentYear} OneVans.in All rights reserved.
+              © {currentYear} OneVans.com All rights reserved.
             </p>
             <div className="flex items-center space-x-6 mt-4 md:mt-0">
               <div className="flex items-center space-x-2 text-gray-400 text-sm animate-fade-in">

@@ -37,10 +37,10 @@ export default function Header() {
           <Link href="/" className="group">
             <div className="text-2xl font-bold text-black transform transition-all duration-300 group-hover:scale-110">
               <div className="text-4xl ">
-                OneVans
+                One Vans
               </div>
               <div className="text-xs text-black  ml-1">
-                powered by Aumaem
+                
               </div>
             </div>
 
@@ -66,7 +66,7 @@ export default function Header() {
               variant="outline"
               size="sm"
               className="group hover:scale-105 transition-all duration-300"
-              onClick={() => window.location.href = "https://app.OneVans.in/login"}
+              onClick={() => window.location.href = "https://app.One Vans.in/login"}
             >
               Sign In
               <i className="ri-login-circle-line ml-2 group-hover:rotate-12 transition-transform duration-300"></i>
@@ -75,7 +75,7 @@ export default function Header() {
             <Button
               size="sm"
               className="group hover:scale-105 transition-all duration-300"
-              onClick={() => window.location.href = "https://app.OneVans.in/register"}
+              onClick={() => window.location.href = "https://app.One Vans.in/register"}
             >
               Get Started
               <i className="ri-arrow-right-line ml-2 group-hover:translate-x-1 transition-transform duration-300"></i>

@@ -44,7 +44,7 @@ export default function About() {
     {
       year: "2019",
       title: "Company Founded",
-      description: "OneVans was founded by construction industry veterans to solve real project management challenges."
+      description: "One Vans was founded by construction industry veterans to solve real project management challenges."
     },
     {
       year: "2020",
@@ -108,7 +108,7 @@ export default function About() {
             <h1 className={`text-5xl md:text-6xl font-bold text-white mb-6 transform transition-all duration-1000 delay-300 ${isVisible ? 'scale-100 opacity-100' : 'scale-95 opacity-0'}`}>
               About{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-300 animate-pulse">
-                OneVans
+                One Vans
               </span>
             </h1>
             <p className={`text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto transform transition-all duration-1000 delay-500 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
@@ -180,7 +180,7 @@ export default function About() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-black mb-4 animate-fade-in">Leadership Team</h2>
             <p className="text-xl text-gray-600 animate-fade-in-delay">
-              Meet the experienced professionals leading OneVans' mission to transform construction project management.
+              Meet the experienced professionals leading One Vans' mission to transform construction project management.
             </p>
           </div>
 
@@ -211,7 +211,7 @@ export default function About() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-black mb-4 animate-fade-in">Our Journey</h2>
             <p className="text-xl text-gray-600 animate-fade-in-delay">
-              Key milestones in OneVans' growth and evolution
+              Key milestones in One Vans' growth and evolution
             </p>
           </div>
 
@@ -245,7 +245,7 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-white mb-4 animate-fade-in">
-              OneVans by the Numbers
+              One Vans by the Numbers
             </h2>
             <p className="text-xl text-gray-300 animate-fade-in-delay">
               Our impact on the construction industry
@@ -279,7 +279,7 @@ export default function About() {
               Join Our Growing Community
             </h2>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              Become part of the OneVans family and transform how you manage construction projects.
+              Become part of the One Vans family and transform how you manage construction projects.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
