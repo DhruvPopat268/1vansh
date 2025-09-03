@@ -119,7 +119,7 @@ export default function Header() {
               variant="outline"
               size="sm"
               className="w-full group hover:scale-105 transition-all duration-300"
-              onClick={() => window.location.href = "google.com"}
+              onClick={() => window.location.href = "https://app.1vans.in/login"}
             >
               Sign In
               <i className="ri-login-circle-line ml-2 group-hover:rotate-12 transition-transform duration-300"></i>
@@ -127,6 +127,7 @@ export default function Header() {
             <Button
               size="sm"
               className="w-full group hover:scale-105 transition-all duration-300"
+              onClick={() => window.location.href = "https://app.1vans.in/register"}
             >
               Get Started
               <i className="ri-arrow-right-line ml-2 group-hover:translate-x-1 transition-transform duration-300"></i>
