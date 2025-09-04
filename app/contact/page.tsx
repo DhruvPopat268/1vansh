@@ -178,25 +178,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
                   </div>
                 </div>
 
-                <div className="animate-fade-in">
-                  <label htmlFor="subject" className="block text-sm font-medium text-black mb-2">
-                    Subject *
-                  </label>
-                  <select
-                    id="subject"
-                    name="subject"
-                    value={formData.subject}
-                    onChange={handleChange}
-                    required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-black pr-8 transition-all duration-300"
-                  >
-                    <option value="general">General Inquiry</option>
-                    <option value="sales">Sales Question</option>
-                    <option value="support">Technical Support</option>
-                    <option value="demo">Request Demo</option>
-                    <option value="partnership">Partnership Opportunity</option>
-                  </select>
-                </div>
+
 
                 <div className="animate-fade-in-delay">
                   <label htmlFor="message" className="block text-sm font-medium text-black mb-2">
