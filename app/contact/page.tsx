@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Button from '@/components/ui/Button';
+import axios from 'axios';
 
 export default function Contact() {
   const [isVisible, setIsVisible] = useState(false);
@@ -24,45 +25,38 @@ export default function Contact() {
     setIsVisible(true);
   }, []);
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setSubmitStatus("Sending...");
 
     try {
-      const response = await fetch('https://readdy.ai/api/form-submit', {
-        method: 'POST',
+      const response = await axios.post("https://pts.prayoshatechnology.com", formData, {
         headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-        },
-        body: new URLSearchParams({
-          id: 'contact-form',
-          name: formData.name,
-          email: formData.email,
-          company: formData.company,
-          phone: formData.phone,
-          message: formData.message,
-          subject: formData.subject
-        }),
+          "Content-Type": "application/json"
+        }
       });
 
-      if (response.ok) {
-        setSubmitStatus('Thank you for your message! We will get back to you within 24 hours.');
+      // Assuming API returns JSON { status: "success", message: "..." }
+      if (response.data.status === "success") {
+        setSubmitStatus("✅ Thank you! Your message has been sent.");
         setFormData({
-          name: '',
-          email: '',
-          company: '',
-          phone: '',
-          message: '',
-          subject: 'general'
+          name: "",
+          email: "",
+          company: "",
+          phone: "",
+          subject: "general",
+          message: ""
         });
       } else {
-        setSubmitStatus('Sorry, there was an error sending your message. Please try again.');
+        setSubmitStatus("❌ Failed to send message. Please try again.");
       }
     } catch (error) {
-      setSubmitStatus('Sorry, there was an error sending your message. Please try again.');
-    } finally {
-      setIsSubmitting(false);
+      console.error("Error sending message:", error);
+      setSubmitStatus("❌ Error: Could not reach server.");
     }
+
+    setIsSubmitting(false);
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
