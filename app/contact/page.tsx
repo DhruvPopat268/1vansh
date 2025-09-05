@@ -25,38 +25,38 @@ export default function Contact() {
     setIsVisible(true);
   }, []);
 
-const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-  e.preventDefault();
-  setIsSubmitting(true);
-  setSubmitStatus("Sending...");
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    setSubmitStatus("Sending...");
 
-  try {
-    const response = await axios.post("https://pts.prayoshatechnology.com", formData, {
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
-
-    if (response.data.status === "success") {
-      setSubmitStatus("✅ Thank you! Your message has been sent.");
-      setFormData({
-        name: "",
-        email: "",
-        company: "",
-        phone: "",
-        subject: "general",
-        message: "",
+    try {
+      const response = await axios.post("https://pts.prayoshatechnology.com", formData, {
+        headers: {
+          "Content-Type": "application/json",
+        },
       });
-    } else {
-      setSubmitStatus("❌ Failed to send message. Please try again.");
-    }
-  } catch (error) {
-    console.error("Error sending message:", error);
-    setSubmitStatus("❌ Error: Could not reach server.");
-  }
 
-  setIsSubmitting(false);
-};
+      if (response.data.status === "success") {
+        setSubmitStatus("✅ Thank you! Your message has been sent.");
+        setFormData({
+          name: "",
+          email: "",
+          company: "",
+          phone: "",
+          subject: "general",
+          message: "",
+        });
+      } else {
+        setSubmitStatus("❌ Failed to send message. Please try again.");
+      }
+    } catch (error) {
+      console.error("Error sending message:", error);
+      setSubmitStatus("❌ Error: Could not reach server.");
+    }
+
+    setIsSubmitting(false);
+  };
 
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -177,8 +177,6 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
                     />
                   </div>
                 </div>
-
-
 
                 <div className="animate-fade-in-delay">
                   <label htmlFor="message" className="block text-sm font-medium text-black mb-2">
